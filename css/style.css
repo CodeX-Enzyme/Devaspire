@@ -1,0 +1,84 @@
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+/* Making it standard, to change, do it inside every declaration */
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 , h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+/* Done */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* Navbar */
+#navbar {
+    border: 2px solid red;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 5;
+}
+
+#navimg {
+    height: 50px;
+    width: 50px;
+    margin-right: 0.4vw;
+}
+
+#navul {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    position: absolute;
+    right: 0.9vw;
+    top: 25%;
+    margin: auto;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 2px;
+}
+
+.navlist a {
+    /* border: 2px solid red; */
+    text-decoration: none;
+    padding: 4px 10px;
+    margin: 0 4px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+}
+
+/* Home Section */
+
+
+
+/* About Us */
+
+
+
+
+/* Projects */
+
+
+
+
+/* Services */
+
+
+
+
+/* Contact */
+
+
+
+
+/* Footer */
+
+
