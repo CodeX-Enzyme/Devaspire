@@ -75,7 +75,7 @@ h1 , h2, h3 {
 /* Home Section */
 
 #home{
-    border: 5px solid black;
+    border: 2px solid black;
     height: calc(100vh - 55px);
     overflow: hidden;
     color: white;
@@ -90,7 +90,7 @@ h1 , h2, h3 {
 }
 
 .content-container{
-    border: 2px solid black;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,9 +168,6 @@ h1 , h2, h3 {
   line-height: 30px;
 }
 
-.container {
-  padding: 0 16px;
-}
 
 .container::after, .row::after {
   content: "";
