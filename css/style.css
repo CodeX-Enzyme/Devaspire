@@ -58,7 +58,69 @@ h1 , h2, h3 {
 
 /* Home Section */
 
+#home{
+    border: 5px solid black;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    color: white;
+}
 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.content-container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+    background-color: rgb(57, 40, 120);
+    box-shadow: 30px 0px 50px rgb(57, 40, 120);
+}
+
+.content{
+    /* border: 2px solid red; */
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content span{
+    color: aqua;
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+.content p{
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+
+/* .btn-container{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.btn:nth-child(1){
+    margin-right: 30px;
+}
+
+.img{
+    width: 50%;
+    border: 2px solid black;
+    z-index: -1;
+}
 
 /* About Us */
 
@@ -83,3 +145,18 @@ h1 , h2, h3 {
 /* Footer */
 
 
+/* utility class */
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(57, 40, 120);
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.primary{
+    background-color: rgb(36, 121, 212);
+}
