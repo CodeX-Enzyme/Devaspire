@@ -18,7 +18,7 @@ h1 , h2, h3 {
 
 /* Navbar */
 #navbar {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     top: 0;
     left: 0;
     position: sticky;
@@ -59,7 +59,7 @@ h1 , h2, h3 {
 /* Home Section */
 
 #home{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     height: calc(100vh - 70px);
     overflow: hidden;
     color: white;
@@ -74,14 +74,14 @@ h1 , h2, h3 {
 }
 
 .content-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: inherit;
     background-color: rgb(57, 40, 120);
-    box-shadow: 30px 0px 50px rgb(57, 40, 120);
+    box-shadow: 25px 0px 5px rgb(57, 40, 120);
 }
 
 .content{
@@ -112,13 +112,13 @@ h1 , h2, h3 {
     justify-content: space-between;
 } */
 
-.btn:nth-child(1){
+.btn-container .btn:nth-child(1){
     margin-right: 30px;
 }
 
 .img{
     width: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     z-index: -1;
 }
 
