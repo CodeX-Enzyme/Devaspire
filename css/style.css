@@ -97,7 +97,7 @@ h1 , h2, h3 {
     width: 50%;
     height: inherit;
     background-color: rgb(6, 95, 179);
-    box-shadow: 30px 0px 50px rgb(6, 95, 179);
+    box-shadow: 25px 0px 5px rgb(6, 95, 179);
     
 }
 
@@ -129,7 +129,7 @@ h1 , h2, h3 {
     justify-content: space-between;
 } */
 
-.btn:nth-child(1){
+.btn-container .btn:nth-child(1){
     margin-right: 30px;
 }
 
