@@ -192,6 +192,10 @@ h1 , h2, h3 {
     
 }
 
+.container1 img {
+    width: 100vw;
+}
+
 
 
 .about-sec p{
