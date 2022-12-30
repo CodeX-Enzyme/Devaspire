@@ -325,22 +325,23 @@ h1 , h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.selectBtn:hover {
+.clickedBtn {
     background-color: #2B3467;
     box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
     color: white;
     transition: all 300ms;
+    cursor: default;
 }
 
 
 /* For Javascript Reference */
 
-.temp {
+#temp {
     display: flex;
     margin: 0.5vw;
 }
 
-.temp img {
+.sideImg {
     height: 300px ;
     width: 300px;
     margin-right: 3vw;

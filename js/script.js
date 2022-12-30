@@ -3,6 +3,7 @@ navimg.addEventListener("click",()=>{
     window.location.replace("https://devaspire.live") ;
 })
 
+/*
 const section = document.querySelectorAll('section');
 const navli = document.querySelectorAll('nav ul li');
 
@@ -21,4 +22,43 @@ window.addEventListener('scroll', () => {
             li.classlist.add('active');
         }
     })
+})
+*/
+
+const webCont = `
+            <img class="sideImg" src="assets/logo.jpeg" alt="Format">
+            <div class="tempText">
+                <h1 class="tempHead">Web Development</h1>
+                <p class="tempPara">Lorem JDLFJLJFE iunt  fjlsjfe   sdfjeljfe  lsjdflsjdfoiej  ISDJFOIEJLF DJFLJELIFJEarchitecto nisi unde dolorem asperiores tempore, recusandae odio, cupiditate cum doloribus ab dignissimos officiis laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque repudiandae ipsa nemo eligendi velit deserunt.</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick"> Custom Website</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Maintainence and Fix</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Entire codebase under you control</p>
+            </div>
+`
+
+const appCont = `
+            <img class="sideImg" src="assets/transparentlogo.png" alt="Format">
+            <div class="tempText">
+                <h1 class="tempHead">App Development</h1>
+                <p class="tempPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dicta nesciunt minima a eos, atque fuga architecto nisi unde dolorem asperiores tempore, recusandae odio, cupiditate cum doloribus ab dignissimos officiis laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque repudiandae ipsa nemo eligendi velit deserunt.</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick"> Custom Android App</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Maintainence and Fix</p>
+                <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Entire codebase under you control</p>
+            </div>
+`
+
+const webBtn = document.querySelectorAll(".selectBtn")[0] ;
+const appBtn = document.querySelectorAll(".selectBtn")[1] ;
+const tempCont = document.getElementById("temp") ;
+
+appBtn.addEventListener("click",()=>{
+    webBtn.classList.remove("clickedBtn") ;
+    appBtn.classList.add("clickedBtn") ;
+    tempCont.innerHTML = appCont ;
+})
+
+webBtn.addEventListener("click",()=>{
+    appBtn.classList.remove("clickedBtn") ;
+    webBtn.classList.add("clickedBtn") ;
+    tempCont.innerHTML = webCont ;
 })
