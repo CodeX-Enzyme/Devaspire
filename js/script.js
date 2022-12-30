@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
 */
 
 const webCont = `
-            <img class="sideImg" src="assets/logo.jpeg" alt="Format">
+            <img class="sideImg" src="assets/web.png" alt="Format">
             <div class="tempText">
                 <h1 class="tempHead">Web Development</h1>
                 <p class="tempPara">Lorem JDLFJLJFE iunt  fjlsjfe   sdfjeljfe  lsjdflsjdfoiej  ISDJFOIEJLF DJFLJELIFJEarchitecto nisi unde dolorem asperiores tempore, recusandae odio, cupiditate cum doloribus ab dignissimos officiis laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque repudiandae ipsa nemo eligendi velit deserunt.</p>
@@ -37,7 +37,7 @@ const webCont = `
 `
 
 const appCont = `
-            <img class="sideImg" src="assets/transparentlogo.png" alt="Format">
+            <img class="sideImg" src="assets/android.png" alt="Format">
             <div class="tempText">
                 <h1 class="tempHead">App Development</h1>
                 <p class="tempPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dicta nesciunt minima a eos, atque fuga architecto nisi unde dolorem asperiores tempore, recusandae odio, cupiditate cum doloribus ab dignissimos officiis laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque repudiandae ipsa nemo eligendi velit deserunt.</p>
