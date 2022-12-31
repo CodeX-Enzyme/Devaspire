@@ -290,7 +290,106 @@ h1 , h2, h3 {
 
 /* Services */
 
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 100px;
+}
 
+#first {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0.9vw;
+}
+
+#first img {
+    width: 30px;
+    height: 30px;
+}
+
+#headQ {
+    font-size: 2.5rem;
+    margin: 30px 0 10px 0;
+}
+
+#switchBtn {
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    height: 70px;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 40px;
+    text-align: center;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+    background-color: #BFEAF5;
+}
+
+.selectBtn {
+    display: flex;
+    /* border: 1px solid blueviolet; */
+    min-width: 230px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clickedBtn {
+    background-color: #2B3467;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+    color: white;
+    transition: all 300ms;
+    cursor: default;
+}
+
+
+/* For Javascript Reference */
+
+#temp {
+    display: flex;
+    margin: 0.5vw;
+}
+
+.sideImg {
+    height: 300px ;
+    width: 300px;
+    margin-right: 3vw;
+}
+
+.tempHead {
+    margin-bottom: 1vw;
+}
+
+.tempPara {
+    max-width: 40vw;
+    border: 2px solid maroon;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.tempOffer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.tempOffer img {
+    margin: 0;
+    width: 30px;
+    height: 25px;
+}
+
+/* Javascript Reference Out */
 
 
 /* Contact */
