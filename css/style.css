@@ -17,6 +17,11 @@ h1 , h2, h3 {
     
 }
 
+.pad {
+    padding: 15px;
+}
+
+
 /* Navbar */
 #navbar {
     background-color: white ;
@@ -269,24 +274,46 @@ h1 , h2, h3 {
 
 /* Projects */
 #projects{
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
+    margin-top: 5vw;
+    min-height: 200px;
     overflow: hidden;
-    color: White;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+
+    /* border: 2px solid red; */
 }
 
-.container2{
+#project-list{
     margin: 50px;
-    padding: 50px;
-}
-
-.content2 {
-    color:black;
+    padding: 50px 0;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
+.cart {
+    width: 25%;
+    min-height: 630px;
+    /* border: 2px solid aquamarine; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 
+}
 
+.cart img {
+    height: 590px;
+}
+
+.cart a{
+    padding: 6px;
+}
 
 /* Services */
 
