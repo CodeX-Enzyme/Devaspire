@@ -62,3 +62,12 @@ webBtn.addEventListener("click",()=>{
     webBtn.classList.add("clickedBtn") ;
     tempCont.innerHTML = webCont ;
 })
+
+
+const homeContent = document.getElementsByClassName('content-container')[0] ;
+window.addEventListener('DOMContentLoaded',()=>{
+    const homeContent2 = document.getElementsByClassName('home-img')[0] ;
+    homeContent2.style.height = '' + homeContent.clientHeight + 'px' ;
+    console.log(homeContent.clientHeight) ;
+    console.log(homeContent2.clientHeight) ;
+})
