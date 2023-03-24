@@ -78,6 +78,13 @@ h1 , h2, h3, ::placeholder {
     color: white;
 }
 
+@media only screen and (max-width: 506px) {
+    #navul li a {
+        font-size: 0.8rem !important;
+
+    }
+}
+
 /* Home Section */
 
 #home{
@@ -250,16 +257,15 @@ h1 , h2, h3, ::placeholder {
     background-color: white;
     border-radius: 10px;
     /* border: 2px solid black;  */
-    width: 408px;
-    bottom:  -90px;
+    width: 30vw;
+    bottom:  -100px;
     right: 40px;
-    height: 160px;
     padding: 30px
 }
 
 .info span{
     color:rgb(15, 167, 255);
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: bold;
     font-family: monospace;
 
@@ -270,10 +276,27 @@ h1 , h2, h3, ::placeholder {
     
     font-family:  sans-serif;
     line-height: 25px;
-    margin: 10px 0px;
-    
-    
+    margin: 10px 0px; 
+}
 
+@media only screen and (max-width: 900px) {
+    .info {
+        width: 70%;
+        bottom: -150px;
+        right: 10px;
+        padding: 4vw 0.8vw;
+    }
+    .info span {
+        font-size: 1rem !important;
+    }
+    .info p {
+        font-size: 0.8rem !important;
+        margin: 0px;
+    }
+    .image-container img {
+        width: 95vw;
+        height: auto;
+    }
 }
 
 /* Projects */
