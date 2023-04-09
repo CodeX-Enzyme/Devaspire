@@ -1,172 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Devaspire</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <img id="navimg" src="assets/transparentlogo.png" alt="">
-        <ul class="navlist" id="navul">
-            <li class="home"><a href="#home">Home</a></li>
-            <li class="about"><a href="#about">About</a></li>
-            <li class="projects"><a href="#projects">Projects</a></li>
-            <li class="services"><a href="#services">Service</a></li>
-            <li class="contact"><a href="#contact">Contact</a></li>
-        </ul>
+      <img id="navimg" src="assets/transparentlogo.png" alt="" />
+      <ul class="navlist" id="navul">
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="about"><a href="#about">About</a></li>
+        <li class="projects"><a href="#projects">Projects</a></li>
+        <li class="services"><a href="#services">Service</a></li>
+        <li class="contact"><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <!-- Home -->
     <section id="home">
-        <div class="container">
-            <div class="content-container">
-                <div class="content">
-                    <h1>Developing your ideas into <span>reality</span> </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis reiciendis atque error iure commodi sequi saepe non. Eos impedit laborum ullam numquam?</p>
+      <div class="container">
+        <div class="content-container">
+          <div class="content">
+            <h1>Developing your ideas into <span>reality</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              corporis reiciendis atque error iure commodi sequi saepe non. Eos
+              impedit laborum ullam numquam?
+            </p>
 
-                    <div class="btn-container">
-                        <button class="btn primary">
-                            Get in touch
-                        </button>
-                        <button class="btn ">See our Work</button>
-
-                    </div>
-                </div>
+            <div class="btn-container">
+              <button class="btn primary slideLeft">Get in touch</button>
+              <button class="btn slideRight">See our Work</button>
             </div>
-            <div class="home-img">
-                <!-- <img src="./assets/Untitled design.png" id="home-img-url"  alt="img"> -->
-            </div>
+          </div>
         </div>
-
+        <div class="home-img">
+          <!-- <img src="./assets/Untitled design.png" id="home-img-url"  alt="img"> -->
+        </div>
+      </div>
     </section>
-
-
 
     <!-- About us -->
 
     <section id="about">
-        <div class="container1">
-            <div class="about-sec">
-                <h1>About us</h1>
-                <p>We will help you with our creative thinking</p>
-            </div>
-            <div class="image-container">
-                <img src="./assets/annie-spratt-QckxruozjRg-unsplash cropped.jpg"  alt="">
-                <div class="info">
-                    <span>Our missions </span>
-                    <p>Devspire combines high quality software development with excellent service to add value to your business. Our commitment is to deliver results and save you time and money, while developing a long-term relationship that benefits us both.</p>
-                </div>
-            </div>
-            
+      <div class="container1">
+        <div class="about-sec" data-aos="fade-up" data-aos-duration="2000">
+          <h1>About us</h1>
+          <p>We will help you with our creative thinking</p>
         </div>
-
+        <div class="image-container" data-aos="fade-up">
+          <img
+            src="./assets/annie-spratt-QckxruozjRg-unsplash cropped.jpg"
+            alt=""
+          />
+          <div class="info" data-aos="zoom-in-left">
+            <span>Our missions </span>
+            <p>
+              Devspire combines high quality software development with excellent
+              service to add value to your business. Our commitment is to
+              deliver results and save you time and money, while developing a
+              long-term relationship that benefits us both.
+            </p>
+          </div>
+        </div>
+      </div>
+      +
     </section>
 
-    
     <!-- Projects  -->
 
-    <section id="projects">
-        <h1 class="pad">Projects</h1>
-        <p class="pad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis reiciendis atque error iure commodi sequi saepe non. Eos impedit laborum ullam numquam?</p>
-        <div id="project-list">
-            <div id="stylenode" class="cart">
-                <img src="assets/Projects/stylenode.jpg" alt="stylenode">
-                <a href="www.stylnode.com">StylNode</a>
-            </div>
-            <div id="arghya" class="cart">
-                <img src="assets/Projects/arghya.jpg" alt="Arghya">
-                <a href="https://arghyahub.github.io/cv/">Personal Website</a>
-            </div>
-            <div id="krish" class="cart">
-                <img src="assets/Projects/krish.jpg" alt="Krishnendu">
-                <a href="https://arghyahub.github.io/Food-Delivery/">Food-Delivery</a>
-            </div>
+    <section id="projects" data-aos="fade-up" data-aos-duration="2000">
+      <h1 class="pad">Projects</h1>
+      <p class="pad">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis
+        reiciendis atque error iure commodi sequi saepe non. Eos impedit laborum
+        ullam numquam?
+      </p>
+      <div id="project-list">
+        <div
+          id="stylenode"
+          class="cart"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="assets/Projects/stylenode.jpg" alt="stylenode" />
+          <a href="www.stylnode.com">StylNode</a>
         </div>
-
+        <div
+          id="arghya"
+          class="cart"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="assets/Projects/arghya.jpg" alt="Arghya" />
+          <a href="https://arghyahub.github.io/cv/">Personal Website</a>
+        </div>
+        <div id="krish" class="cart">
+          <img
+            src="assets/Projects/krish.jpg"
+            alt="Krishnendu"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+          />
+          <a href="https://arghyahub.github.io/Food-Delivery/">Food-Delivery</a>
+        </div>
+      </div>
     </section>
-    
-    
+
     <!-- Services -->
 
-    <section id="services">
-        <p id="first"><img src="assets/logo.jpeg" alt="logo">Services</p>
-        <h2 id="headQ">What can we do for you</h2>
-        <div id="switchBtn">
-            <div class="selectBtn clickedBtn">Web Development</div>
-            <div class="selectBtn">App Development</div>
-        </div>
+    <section id="services" data-aos="fade-up" data-aos-duration="2000">
+      <p id="first"><img src="assets/logo.jpeg" alt="logo" />Services</p>
+      <h2 id="headQ">What can we do for you</h2>
+      <div id="switchBtn">
+        <div class="selectBtn clickedBtn">Web Development</div>
+        <div class="selectBtn">App Development</div>
+      </div>
 
-        <div id="temp">
-            <img class="sideImg" src="assets/web.png" alt="Format">
-            <div class="tempText">
-                <h1 class="tempHead">Web Development</h1>
-                <p class="tempPara">Lorem JDLFJLJFE iunt  fjlsjfe   sdfjeljfe  lsjdflsjdfoiej  ISDJFOIEJLF DJFLJELIFJEarchitecto nisi unde dolorem asperiores tempore, recusandae odio, cupiditate cum doloribus ab dignissimos officiis laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque repudiandae ipsa nemo eligendi velit deserunt.</p>
-                <div id="tempBox">
-                    <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick"> Custom Website</p>
-                    <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Maintainence and Fix</p>
-                    <p class="tempOffer"><img src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="tick">Entire codebase under you control</p>
-                </div>
-            </div>
+      <div id="temp" data-aos="fade-left" data-aos-duration="2000">
+        <img class="sideImg" src="assets/web.png" alt="Format" />
+        <div class="tempText">
+          <h1 class="tempHead">Web Development</h1>
+          <p class="tempPara">
+            Lorem JDLFJLJFE iunt fjlsjfe sdfjeljfe lsjdflsjdfoiej ISDJFOIEJLF
+            DJFLJELIFJEarchitecto nisi unde dolorem asperiores tempore,
+            recusandae odio, cupiditate cum doloribus ab dignissimos officiis
+            laborum cumque ipsum nobis! Animi excepturi at necessitatibus atque
+            repudiandae ipsa nemo eligendi velit deserunt.
+          </p>
+          <div id="tempBox">
+            <p class="tempOffer">
+              <img
+                src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png"
+                alt="tick"
+              />
+              Custom Website
+            </p>
+            <p class="tempOffer">
+              <img
+                src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png"
+                alt="tick"
+              />Maintainence and Fix
+            </p>
+            <p class="tempOffer">
+              <img
+                src="https://www.pngitem.com/pimgs/m/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png"
+                alt="tick"
+              />Entire codebase under you control
+            </p>
+          </div>
         </div>
-
+      </div>
     </section>
-
 
     <!-- Contact -->
 
     <section id="contact">
-        <form action="/" method="post">
-            <div id="formBox">
-
-                <div id="name-emailbox">
-                    <div id="nameForm" class="formdown">
-                        <label for="Name">Name</label>
-                        <input type="text" name="Name" id="Namefield" placeholder="Name">
-                    </div>
-                    
-                    <div id="emailForm" class="formdown">
-                        <label for="Email">Email</label>
-                        <input type="text" name="Email" id="Emailfield" placeholder="Email">
-                    </div>
-                </div>
-
-                <div id="subjectForm" class="formdown">
-                    <label for="Subject">Subject</label>
-                    <input type="Subject" name="Subject" id="Subjectfield" placeholder="Subject">
-                </div>
-
-                <div id="messageForm" class="formdown">
-                    <label for="Message">Message</label>
-                    <input type="textarea" name="Message" id="Messagefield" placeholder="Write Here...">
-                </div>
-
-                
-                <button type="submit" id="contactBtn">Send Message</button>
-                
+      <form action="/" method="post">
+        <div id="formBox">
+          <div id="name-emailbox">
+            <div id="nameForm" class="formdown">
+              <label for="Name">Name</label>
+              <input
+                type="text"
+                name="Name"
+                id="Namefield"
+                placeholder="Name"
+              />
             </div>
-        </form>
 
+            <div id="emailForm" class="formdown">
+              <label for="Email">Email</label>
+              <input
+                type="text"
+                name="Email"
+                id="Emailfield"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <div id="subjectForm" class="formdown">
+            <label for="Subject">Subject</label>
+            <input
+              type="Subject"
+              name="Subject"
+              id="Subjectfield"
+              placeholder="Subject"
+            />
+          </div>
+
+          <div id="messageForm" class="formdown">
+            <label for="Message">Message</label>
+            <input
+              type="textarea"
+              name="Message"
+              id="Messagefield"
+              placeholder="Write Here..."
+            />
+          </div>
+
+          <button type="submit" id="contactBtn">Send Message</button>
+        </div>
+      </form>
     </section>
-
 
     <!-- Footer -->
     <footer id="foot">
-        Copyright © www.devaspire.live. All rights reserved!
+      Copyright © www.devaspire.live. All rights reserved!
     </footer>
 
+    <script>
+      AOS.init();
+    </script>
 
     <script src="js/script.js"></script>
 
-                            
-    <script type='text/javascript'>
-            (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'NZqk8mrtbKN5JR3zh_c', {});
+    <script type="text/javascript">
+      (function (I, L, T, i, c, k, s) {
+        if (I.iticks) return;
+        I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
+        var h = T.head || T.documentElement;
+        var e = T.createElement(i);
+        var l = I.location;
+        e.async = true;
+        e.src = (L || c) + "/client/inject-v2.min.js";
+        h.insertBefore(e, h.firstChild);
+        I.iticks.call = function (a, b) {
+          I.iticks.queue.push([a, b]);
+        };
+      })(
+        window,
+        "https://cdn-v1.intelliticks.com/prod/common",
+        document,
+        "script",
+        "https://app.intelliticks.com",
+        "NZqk8mrtbKN5JR3zh_c",
+        {}
+      );
     </script>
-                    
-</body>
+  </body>
 </html>

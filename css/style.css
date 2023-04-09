@@ -88,7 +88,7 @@ h1 , h2, h3, ::placeholder {
 /* Home Section */
 
 #home{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: white;
 }
 
@@ -134,14 +134,26 @@ h1 , h2, h3, ::placeholder {
     margin: 30px 0px;
 }
 
-/* .btn-container{
-    display: flex;
-    justify-content: space-between;
-} */
+.slideLeft {
+    transform: translateX(-50%);
+    animation: slide-in 1s forwards;
+  }
+  
+  @keyframes slide-in {
+    100% {
+      transform: translateX(0);
+    }
+  }
 
-/* .btn-container .btn:nth-child(1){
-    margin-right: 30px;
-} */
+.slideRight{
+    transform: translateX(50%);
+    animation: slide-in 1s forwards;
+}
+@keyframes slide-in {
+    100% {
+        transform: translateX(0);
+      }
+}
 
 .home-img{
     width: 50%;
