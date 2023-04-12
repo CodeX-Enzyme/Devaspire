@@ -514,13 +514,13 @@ body, button, input {
     .background {
       background: linear-gradient(to right, rgb(50, 116, 223) 0%, rgb(66, 133, 244) 100%);
     display: flex;
-    min-height: 60vh;
+    /* height: 60vh; */
   }
   
   .container {
     flex: 0 1 700px;
     margin: auto;
-    padding: 10px;
+    padding: 50px 10px;
   }
   
   .screen {
